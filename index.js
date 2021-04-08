@@ -1,1 +1,5 @@
-// Write your solution in this file!
+function updateDriverWithKeyAndValue(driver, key, value) {
+    driver[key] = key
+    driver[value] = value
+    return driver
+}
